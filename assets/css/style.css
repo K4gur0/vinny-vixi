@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-size:1.2rem;
+    /* font-family: 'Permanent Marker', cursive; */
+    color: rgba(120,227,253,0.7);
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3
+{
+    /* font-family: 'Permanent Marker', cursive; */
+    letter-spacing: 10px;
+}
+
+div.background
+{
+    position: absolute;
+    z-index: -1;
+}
+
+div.layout
+{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(0,0,31,0.87156869583771) 50%, rgba(0,0,0,1) 95%); 
+    position: fixed;
+}
+
+div.background img
+{
+    min-width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+div.titre
+{
+    padding-top: 100px;
+}
+div.titre h2
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-transform: uppercase;
+    background: rgba(31,32,65,0.7);
+    box-shadow: 0 0 10px 5px rgba(31,32,65,0.7);
+    /* margin-bottom: none !important; */
+}
+.form-group
+{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+fieldset
+{
+    text-align:center;
+}
+
+
+
+
