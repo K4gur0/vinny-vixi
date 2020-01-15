@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
     <meta charset="UTF-8">
+    <meta name="author" content="Christian BOUNGOU" />
+    <meta name="copyright" content="Vinny vixi" />
+    <meta name="description" content=""/>
     <title>Document</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
-    
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">   
     <link href="https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,400,700&display=swap" rel="stylesheet"> 
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 
 </head>
