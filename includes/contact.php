@@ -101,6 +101,9 @@ if( $_POST ){
     {
     margin-bottom:0;
     }
-
+    section#contact fieldset
+    {
+      padding-bottom: 200px;
+    }
 
 </style>

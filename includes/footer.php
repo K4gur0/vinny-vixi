@@ -27,13 +27,13 @@ footer div
 
 div.copyright
 {
-    color:rgba(255,255,255,0.2);
+    color:rgba(255,255,255,0.5);
     height: 80%;
     width:50%;
     display:flex;
     align-items:center;
     justify-content:center;
-    border-right:2px solid rgba(50,50,50,0.5);
+    border-right:1px solid rgba(255,255,255,0.5);
 }
 div.social
 {

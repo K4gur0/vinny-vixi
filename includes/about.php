@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="assets/images/sound_2-2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/CDC2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 <h5>Evry-Courcouronnes</h5>
                 <p>Originaire d'Evry en Essonne, région de rappeurs actuels comme Niska, Koba laD, PnL, ou encore...<br/>Vous reconnaitrez la signature des vrais son Drills Français sortie tout droit des quartiers</p>

@@ -66,6 +66,26 @@ fieldset
     text-align:center;
 }
 
+.cookieconsent, .cookieconsent a
+{
+    font-family:sans-serif;
+    font-size: 0.9rem;
+}
+.cookieconsent a
+{
+    padding: 4px;
+    border: 1px white solid;
+    border-radius: 2px;
+    text-decoration: none;
+    color:white;
+}
+.cookieconsent a:hover
+{
+    background:white;
+    color:black;
+    text-decoration: none;
+}
+
 
 
 
