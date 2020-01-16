@@ -178,7 +178,7 @@
     li.nav-item
     {
         background: rgba(0, 0, 0, 0.8);
-        width: 200px;
+        width: 150px;
         display : flex;
         justify-content: center;
         align-items: center;

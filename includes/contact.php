@@ -28,12 +28,13 @@ if( $_POST ){
         <h2>contact</h2>
     </div>
 
+    <legend>Pour toute questions ou envie de partager, n'hésite surtout pas à me contacter !</legend>
 
     <form class="form-horizontal" method="post" action="#contact">
 <fieldset>
 
 <!-- Form Name -->
-<legend>Pour toute questions ou envie de partager, n'hésite surtout pas à me contacter !</legend>
+
 
 <!-- Text input-->
 <div class="form-group">
@@ -103,8 +104,8 @@ if( $_POST ){
     }
     section#contact fieldset
     {
-    margin:50px auto 200px auto;
-    padding-bottom: 20px;
+    margin:0 auto 200px auto;
+    padding: 30px 0;
     width: 50%;
     background: rgba(150,150,200,0.2);
     border-radius: 2px;
@@ -130,6 +131,12 @@ if( $_POST ){
     margin-top: 0;
     margin-bottom: 0;
     background:black;
+    }
+
+    section#contact legend
+    {
+      text-align: center;
+      margin:20px 0;
     }
 
 </style>
