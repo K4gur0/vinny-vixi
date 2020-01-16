@@ -30,25 +30,25 @@ Le site Internet utilisent des cookies aux fins suivantes :
 
 
 
-<h4>Usage du site :</h4>
+<h3>Usage du site :</h3>
 <p>
 pour nous aider à reconnaître votre navigateur comme celui d’un visiteur précédent et pour enregistrer les préférences que vous avez déterminées lors de votre précédente visite sur le Site. Par exemple, nous pouvons enregistrer vos informations de connexion de sorte que vous n’ayez pas à vous connecter à chaque fois que vous visitez le Site ;
 </p>
 
 
-<h4>Réseaux sociaux : </h4>
+<h3>Réseaux sociaux : </h3>
 <p>
 pour vérifier si vous êtes connectés à des services tiers (Facebook, Twitter, Google+…) ;
 </p>
 
 
-<h4>Ciblage :</h4>
+<h3>Ciblage :</h3>
 <p>
 pour nous permettre de cibler (emailing, enrichissement de base) à postériori ou en temps réel l’internaute qui navigue sur notre Site ;
 </p>
 
 
-<h4>Mesure d’audience :</h4>
+<h3>Mesure d’audience :</h3>
 <p>
 pour suivre les données statistiques de fréquentation du Site (soit l’utilisation faite du Site par les utilisateurs et pour améliorer les services du Site) et pour nous aider à mesurer et étudier l’efficacité de notre contenu interactif en ligne, de ses caractéristiques, publicités et autres communications.
 </p>
@@ -61,14 +61,14 @@ Vous avez le choix de configurer votre navigateur pour accepter tous les cookies
 </p>
 
 <p>
-Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. Notez toutefois que si vous désactivez les cookies, votre nom d’utilisateur ainsi que votre mot de passe ne seront plus sauvegardés sur aucun site web. Pour plus d’informations relatives aux méthodes vous permettant de supprimer et de contrôler les cookies stockés sur votre ordinateur, consultez le site suivant : http://www.allaboutcookies.org/fr/
+Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. Notez toutefois que si vous désactivez les cookies, votre nom d’utilisateur ainsi que votre mot de passe ne seront plus sauvegardés sur aucun site web. Pour plus d’informations relatives aux méthodes vous permettant de supprimer et de contrôler les cookies stockés sur votre ordinateur, consultez le site suivant : <a target="_blank" href="https://www.allaboutcookies.org/fr/">https://www.allaboutcookies.org/fr/</a>
 </p>
 
 
  
-<h3>Comment configurer votre navigateur</h3>
+<h2>Comment configurer votre navigateur</h2>
 
-    <h4>Firefox :</h4>
+    <h3>Firefox :</h3>
     <ol>
         <li>Ouvrez Firefox</li>
         <li>Appuyez sur la touche « Alt »</li>
@@ -84,7 +84,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
         
         
        
-    <h4>Internet Explorer :</h4>    
+    <h3>Internet Explorer :</h3>    
     <ol>
         <li>Ouvrez Internet Explorer</li>
         <li>Dans le menu « Outils », sélectionnez « Options Internet »</li>
@@ -93,7 +93,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
         <li>Sauvegardez vos préférences en cliquant sur « OK »</li>
     </ol>
         
-    <h4>Google Chrome :</h4>
+    <h3>Google Chrome :</h3>
     <ol>
         <li>Ouvrez Google Chrome</li>
         <li>Cliquez sur l’icône d’outils dans la barre de menu</li>
@@ -102,7 +102,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
         <li>Dans le menu déroulant « Paramètres des cookies », sélectionnez « Bloquer tous les cookies »</li>
     </ol> 
         
-    <h4>Safari :</h4>
+    <h3>Safari :</h3>
     <ol>
         <li>Ouvrez Safari</li>
         <li>Dans la barre de menu en haut, cliquez sur « Safari », puis « Préférences »</li>
@@ -136,7 +136,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
 
     section#cookie
     {
-        padding-top:200px;
+        padding-top:150px;
         padding-bottom:200px;
         margin: 0 300px;
         display: flex;
@@ -146,12 +146,24 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
     section#cookie *
     {
         font-family: sans-serif;
+        font-size: 1rem;
     }
 
     section#cookie h2
     {
         text-align: center;
-        margin-bottom: 50px;
+        margin:50px 0 50px 0;
+        letter-spacing: 5px;
+    }
+
+    section#cookie h3
+    {
+        margin-top: 25px;
+        letter-spacing: 5px;
+    }
+    section#cookie ol
+    {
+        margin-left:50px;
     }
 
 </style>
