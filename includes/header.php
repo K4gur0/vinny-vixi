@@ -7,7 +7,44 @@
 
 <header>
 
-        <nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end">
+  <a class="navbar-brand" id="logo" href="index.php"><img src="assets/images/logo_vinny_letra_2.png" alt="logo vinny prods" title="logo vinny vixi"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav d-flex align-items-end">
+      <li class="nav-item ">
+        <a class="nav-link" href="../vinny/#about">A propos</a>
+        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../vinny/#beats">Beats</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../vinny/#videos">Videos</a>
+        </li>
+        
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#freestyle">FreeStyle record</a>
+        </li> -->
+    
+        <li class="nav-item">
+            <a class="nav-link" href="../vinny/#tarif">Licences</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../vinny/#contact">Contact</a>
+        </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
+        <!-- <nav>
         
             <a href="index.php" class="logo">
                     <img src="assets/images/logo_vinny_letra_2.png" alt="logo vinny prods" title="logo vinny vixi">
@@ -26,7 +63,7 @@
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link" href="#freestyle">FreeStyle record</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#tarif">Licences</a>
                 </li>
@@ -36,17 +73,7 @@
             </ul>
 
 
-                    
-                        <!-- <form action ="Controleurs/VerifForm.php" method="get" class="form-inline methode">
-
-                            <input class="form-control mr-sm-2" type="search" name="terme" placeholder="Entrez un terme" aria-label="Search">
-
-                            <button name="s" value="Rechercher" class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="assets/icons/search_w.png" alt="search"></button>
-
-                        </form> -->
-
-
-        </nav>
+        </nav> -->
 
         
 
@@ -73,11 +100,13 @@
     a.nav-link
     {
         color: #9b9ece;
-        transition:0.2s
+        font-family: 'Permanent Marker', cursive;
+        transition:0.2s;
     }
     a.nav-link:hover
     {
         color: #78e3fd;
+        text-shadow: 1px 1px 5px rgba(255,255,255,1);
     }
 
     header nav
@@ -89,10 +118,10 @@
         align-items:center;
     }
 
-    a.logo
+    a#logo
     {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         position: absolute;
         left: 0;
         top: 0;
@@ -119,7 +148,7 @@
     height: 30px;
     display: flex;
     align-items: center;
-    border-radius: 2px;
+    border-radius: 1px;
     font-family: sans-serif;
     font-size: 0.7rem;
     }
@@ -141,5 +170,37 @@
         width:25px;
         height: 25px;
     }
+
+    .navbar-expand-lg .navbar-collapse
+    {
+        justify-content: center;
+    }
+    li.nav-item
+    {
+        background: rgba(0, 0, 0, 0.8);
+        width: 200px;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* li.nav-item a
+    {
+        color: #9b9ece;
+        font-family: 'Permanent Marker', cursive;
+        transition:0.2s;
+    } */
+
+    .navbar-dark .navbar-nav .nav-link
+    {
+        color: #9b9ece;
+        font-family: 'Permanent Marker', cursive;
+        transition:0.2s;
+    }
+    .bg-dark 
+    {
+    background-color: black !important;
+    }
+    
+
 
 </style>

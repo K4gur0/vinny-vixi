@@ -33,7 +33,7 @@ div.copyright
     display:flex;
     align-items:center;
     justify-content:center;
-    border-right:1px solid rgba(255,255,255,0.5);
+    /* border-right:1px solid rgba(255,255,255,0.5); */
 }
 div.social
 {
@@ -50,8 +50,25 @@ div.social a
 }
 div.social a img
 {
-    height:100%
+    height:100%;
 }
+
+div.footer-links
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: inherit;
+}
+div.footer-links a
+{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    margin: 0 20px;
+}
+
 
 </style>
 
@@ -59,9 +76,18 @@ div.social a img
 
 <footer>
 
+    
+
     <div class="copyright">
     vinny vixy beats | 2019 ©
     </div>
+
+    <div class="footer-links">
+        <a href="info-cookies.php">cookies</a>
+        <a href="">about</a>
+        <a href="">licences infos</a>
+    </div>
+    
 
     <div class="social">
         <a href="https://twitter.com/VinnyVixi" target="_blank"><img src="assets/icons/twitter.png" alt="twitter vinny"></a>

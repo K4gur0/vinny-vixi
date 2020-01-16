@@ -37,43 +37,43 @@ if( $_POST ){
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="nom">Nom</label>  
-  <div class="col-md-8 col-lg-4">
-  <input id="nom" name="nom" type="text" placeholder="Entrer votre Nom" class="form-control input-md" required>
+  <label class="col-md-8 col-lg-9 control-label" for="prenom"><p>Email</p></label>  
+  <div class="col-md-8 col-lg-9">
+  <input id="email" name="email" type="text" placeholder="Entrez votre @mail" class="form-control input-md" required>
     
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="prenom">prenom</label>  
-  <div class="col-md-8 col-lg-4">
-  <input id="prenom" name="prenom" type="text" placeholder="Votre prénom" class="form-control input-md" required>
+  <label class="col-md-8 col-lg-9 control-label" for="nom"><p>Nom</p></label>  
+  <div class="col-md-8 col-lg-9">
+  <input id="nom" name="nom" type="text" placeholder="Entrer votre Nom" class="form-control input-md">
     
   </div>
 </div>
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="sujet">Sujet</label>  
-  <div class="col-md-8 col-lg-4">
-  <input id="sujet" name="sujet" type="text" placeholder="Veuillez indiquez le sujet" class="form-control input-md" required>
+  <label class="col-md-8 col-lg-9 control-label" for="sujet"><p>Sujet</p></label>  
+  <div class="col-md-8 col-lg-9">
+  <input id="sujet" name="sujet" type="text" placeholder="Veuillez indiquez le sujet" class="form-control input-md">
     
   </div>
 </div>
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="message">Message</label>
-  <div class="col-md-8 col-lg-4">                     
+  <label class="col-md-8 col-lg-9 control-label" for="message"><p>Message</p></label>
+  <div class="col-md-8 col-lg-9">                     
     <textarea class="form-control" id="message" name="message" style="resize:none;" placeholder="Taper votre message" required></textarea>
   </div>
 </div>
 
 <!-- Button -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="bouton"></label>
-  <div class="col-md-8 col-lg-4">
+  <label class="col-md-8 control-label" for="bouton"></label>
+  <div class="col-md-8 col-lg-9">
     <button id="bouton" name="bouton" class="btn btn-primary">Envoyer</button>
   </div>
 </div>
@@ -103,7 +103,33 @@ if( $_POST ){
     }
     section#contact fieldset
     {
-      padding-bottom: 200px;
+    margin:50px auto 200px auto;
+    padding-bottom: 20px;
+    width: 50%;
+    background: rgba(150,150,200,0.2);
+    border-radius: 2px;
+    box-shadow: 1px 1px 20px 10px rgba(0,0,20,0.7);
+    }
+
+    @media (max-width:1060px)
+    {
+      section#contact fieldset
+      {
+        width: 100%;
+      }
+    }
+
+    label.control-label
+    {
+      margin: 10px 0 0 0;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    label.control-label p 
+    {
+    margin-top: 0;
+    margin-bottom: 0;
+    background:black;
     }
 
 </style>
