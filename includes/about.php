@@ -14,7 +14,7 @@
     {
     width: 100vw !important;
     /* height: 450px; */
-    opacity:0.5
+    opacity:0.9
     }
     .bd-example
     {
@@ -35,8 +35,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    background: rgba(0,0,20,0.7);
-    box-shadow: 1px 1px 20px 10px rgba(0,0,20,0.7);
+    background: rgba(0,0,20,0.6);
+    box-shadow: 1px 1px 20px 10px rgba(0,0,20,0.6);
     border-radius: 2px;
     }
     .carousel-indicators

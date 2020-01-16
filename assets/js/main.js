@@ -82,24 +82,31 @@ function sizeDown()
 
         if (deploi == false)
         {
-            btnPPS.style.width="200px";
-            btnPPS.style.justifyContent="space-evenly";
-            arrowImg.src = arrowd;
-            divBtn.style.height="200px";
-            // divBtn.style.alignItems="end";
-            divBtn.style.justifyContent="center";
-            divBtn.style.position="relative";
-            next.style.display="none";
-            previous.style.display="none";
-            imgTrackMin.style.opacity="0";
+            
+
             setTimeout(function()
             {
-                playerJs.style.height="78vh";
                 trackMax.style.display="contents";
-                trackMax.style.height="auto";
+                btnPPS.style.width="200px";
+                btnPPS.style.justifyContent="space-evenly";
+                arrowImg.src = arrowd;
+                divBtn.style.height="200px";
+                divBtn.style.justifyContent="center";
+                divBtn.style.position="relative";
+                next.style.display="none";
+                previous.style.display="none";
+                imgTrackMin.style.opacity="0";
                 imgTrack.style.height="450px";
-
+                imgTrack.style.opacity="1";
+                trackMax.style.height="auto";
                 },300);
+
+            setTimeout(function()
+            {
+                playerJs.style.height="78vh";       
+
+                },0);
+
             sizeUp();
             return deploi = true;
         }else if(deploi == true)
@@ -113,13 +120,14 @@ function sizeDown()
             divBtn.style.paddingBottom="0";
             trackMax.style.display="none";
             imgTrack.style.height="0px";
+            imgTrack.style.opacity="0";
             next.style.display="block";
             previous.style.display="block";
             imgTrackMin.style.opacity="1";
-            setTimeout(function()
-                {
-                    divBtn.style.height = divBtnHeightInit;
-                },500);    
+            divBtn.style.height = divBtnHeightInit;
+            // setTimeout(function()
+            //     {
+            //     },1000);    
             sizeDown();
             return deploi = false;
         }

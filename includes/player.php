@@ -147,10 +147,11 @@ require_once "autoload.php";
         box-shadow: 0 0 4px 2px rgba(0,0,0,1);
         align-self: center;
         margin: 2%;
-        transition:0.5s;
         justify-content: center;
         align-items:center;
         background:black;
+        opacity: 0;
+        transition: 0.5s;
     }
     section#playerJs figure#illusBeatsMin
     {
@@ -160,7 +161,6 @@ require_once "autoload.php";
         box-shadow: 0 0 4px 2px rgba(0,0,0,1);
         align-self: center;
         margin: auto 10px;
-        transition:0.5s;
         justify-content: center;
         align-items:center;
         background:black;
@@ -176,7 +176,7 @@ require_once "autoload.php";
     section#playerJs img
     {
         border-radius:2px;
-        transition:0.05s;
+        transition:0.5s;
     }
 
 
@@ -414,7 +414,7 @@ require_once "autoload.php";
     div.volume
     {
         height: 30px;
-        width: 200px;
+        /* width: 200px; */
         display:flex;
         align-items:center;
         justify-content:space-between;
