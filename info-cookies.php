@@ -138,7 +138,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
     {
         padding-top:150px;
         padding-bottom:200px;
-        margin: 0 300px;
+        margin: 0 10%;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -146,7 +146,7 @@ Vous pouvez paramétrer votre navigateur Internet pour désactiver les cookies. 
     section#cookie *
     {
         font-family: sans-serif;
-        font-size: 1rem;
+        font-size: 1.3vw;
     }
 
     section#cookie h2

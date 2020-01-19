@@ -8,8 +8,15 @@
 <header>
 
 
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-end">
   <a class="navbar-brand" id="logo" href="index.php"><img src="assets/images/logo_vinny_letra_2.png" alt="logo vinny prods" title="logo vinny vixi"></a>
+
+    <form id="search" method="post" action="includes/recherche.php">
+        <input type="text" name="keywords">
+        <input type="submit" value="Rechercher">
+    </form>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -201,6 +208,23 @@
     background-color: black !important;
     }
     
+
+    form#search
+    {
+        left: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 0.6em;
+        height: 30px;
+    }
+    form#search *
+    {
+        color: black;
+        height: 100%;
+    }
 
 
 </style>
