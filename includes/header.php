@@ -211,20 +211,26 @@
 
     form#search
     {
-        left: 100px;
+        top:2px;
+        right: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         font-family: sans-serif;
-        font-size: 0.6em;
-        height: 30px;
+        font-size: 0.5em;
+        height: 25px;
     }
     form#search *
     {
         color: black;
         height: 100%;
     }
-
+    form#search:first-child
+    {
+        margin: 0 0 0 5px;
+        height: 20px;
+        background: black;
+    }
 
 </style>
